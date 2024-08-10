@@ -1,7 +1,7 @@
 pybase64
 streamlit
 nbformat
-matplotlib.pyplot
+matplotlib
 numpy
 math
 random
