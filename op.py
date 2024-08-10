@@ -11,7 +11,7 @@ st.write(''' Passing Vehicle Search (PVS) is a recent and innovative optimizatio
 Applying this method in finance allows for solving complex portfolio management problems, where the objective is to maximize returns while adhering to risk constraints. With PVS, we can navigate the vast space of available financial assets, identifying combinations that offer the best balance between risk and return.''')
 st.write("The attached report details all of our work, including theoretical concepts, methodology, and obtained results. If you are interested in an in-depth analysis of our project and the financial optimization techniques used, we invite you to read this report.")
 
-file = "C:/Users/tahir/OneDrive/Desktop/optimization/Passing_Vehicle_Search.pdf"
+file = "Passing_Vehicle_Search.pdf"
 # Opening file from file path
 with open(file, "rb") as f:
     base64_pdf = pybase64.b64encode(f.read()).decode('utf-8')
@@ -24,7 +24,7 @@ st.markdown(pdf_display, unsafe_allow_html=True)
 # Save this code in a file named `app.py`
 
 # Chemin du fichier
-fichier = 'C:/Users/tahir/OneDrive/Desktop/optimization/pvs_application_in_finance.ipynb'
+fichier = 'pvs_application_in_finance.ipynb'
 
 # Fonction pour lire le contenu d'un notebook Jupyter et extraire le code Python
 def lire_code_notebook(fichier):
@@ -57,7 +57,7 @@ if st.button('Run the code'):
         exec(code)
         st.success('The code has been executed successfully.')
 
-        image_path = "C:/Users/tahir/OneDrive/Desktop/optimization/outputcode.png"
+        image_path = "outputcode.png"
         st.image(image_path, caption="figure", width=600)
 
     except Exception as e:
