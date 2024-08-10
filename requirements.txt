@@ -3,4 +3,3 @@ streamlit
 nbformat
 matplotlib==3.4.3
 numpy
-random
