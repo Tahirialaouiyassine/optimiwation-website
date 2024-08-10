@@ -3,5 +3,4 @@ streamlit
 nbformat
 matplotlib
 numpy
-math
 random
